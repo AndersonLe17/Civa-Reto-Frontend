@@ -10,8 +10,8 @@ export const LoginPage = () => {
   const { errorMsg } = useSelector((state: RootState) => state.auth);
 
   const { username, password, submitHandler, onInputChange } = useLogin({
-    username: "aorellana",
-    password: "admin",
+    username: "",
+    password: "",
   });
 
   return (
